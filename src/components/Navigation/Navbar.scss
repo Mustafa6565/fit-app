@@ -1,0 +1,33 @@
+.navBar {
+    background-color: #454545;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+
+    .logo {
+        color: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .navItem {
+        display: flex;
+
+
+
+        .navList {
+            display: flex;
+
+            .navListItem {
+                margin: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
